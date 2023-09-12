@@ -1,0 +1,62 @@
+.Navbar{
+    height: 3rem;
+    width:100vw;
+    max-width: 85rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.logo{
+    color: var(--orange, #FFA421);
+    font-family: Inter;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.MenuItem{
+    display: flex;
+    align-items: flex-start;
+    gap: 71px;
+}
+.Menus{
+    color: #000;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Menus:hover{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 0.5rem;
+    align-items: flex-start;
+    border-radius: 10px;
+    background: var(--red, #E91A1A);  
+    cursor: pointer;
+}
+.MenuBtn{
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 0.5rem 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--red, #E91A1A);
+    box-shadow: 10px 10px 6px 0px rgba(241, 22, 22, 0.30);
+    border: none;
+    cursor: pointer;
+}
